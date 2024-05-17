@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0px 4px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Frederickathegreat;
+    src: url(../Image/fonts/FrederickatheGreat-Regular.ttf);
+    font-family: KanitRegular;
+    src: url(../Image/fonts/Kanit-Regular.ttf);
+    font-family: KanitSemibold;
+    src: url(../Image/fonts/Kanit-SemiBold.ttf);
+}
+header .home-icon{
+    align-items: baseline;
+    height: 45px;
+}
+
+.home-icon a{
+    text-decoration: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    padding: 0px 0px 0px 4px;
+    background-color: whitesmoke;
+    width: 101%;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 600px;
+    font-family: KanitSemibold,sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    text-align: right;
+    height: 48px;
+    padding: 9px 20px;
+}
+
+nav input{
+    align-items: center;
+    height: 30px;
+    width: 230px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.lupa{
+    height: 40px;
+}
+
+.busqueda{
+    margin-left: 200px;
+    display: flex;
+}
+
+
+
+body{
+    background-image:url(../Image/logo/Capa\ 1.jpg);
+    background-size:100%;
+    background-position: center;
+}
+
+.distribucion{
+    display: flex;
+    display: inline;
+    width: 1100px;
+}
+.logo-sol-central{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.logo-sol-central h1{
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Fredericka the Great", serif;
+    font-size: 35px;
+    background-color: rgb(255, 255, 255, 0.45);
+}
+
+.buttons {
+    display: block;
+    align-items: center;
+    margin: 10px 16%;
+}
+.buttons button{
+    background-color: #636060;
+    font-family: KanitSemibold,sans-serif;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.message{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+.central-message{
+    width: 400px;
+    height: 130px;
+    font-size: 23px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    background-color: rgb(255, 255, 255, 0.45);
+    font-family: KanitRegular,sans-serif;
+    text-decoration: none;
+}
+
+
+
+.central-sun{
+    margin: 0 auto;
+    display: block;
+    height: 300px;
+}
+
+.utilities-left{
+    height: 500px;
+    float: left;
+    font-family: KanitSemibold,sans-serif;
+    color: #444444;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.utilities-left img{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 90px;
+}
+
+.utilities-right{
+    font-family: KanitSemibold,sans-serif;
+    height: 500px;
+    color: #444444;
+    float: right;
+    text-align: center;
+    margin-right: 170px;
+}
+
+.utilities-right img{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 90px;
+}
+
+.local{
+    background-color: rgb(255, 255, 255, 0.9);
+    font-family: KanitRegular,sans-serif;
+    width: 1000px;
+    height: 300px;
+    padding: 30px 120px;
+    border-radius: 60px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.local h2{
+    margin-left: 60px;
+}
+.local img{
+    float: right;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.news{
+    background-color: white;
+    font-family: KanitRegular,sans-serif;
+    color: #444444;
+    height: 190px;
+    width: 1487px;
+    margin-top: 50px;
+    padding: 10px 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.news h2, p{
+    margin: 12px;
+    text-align: center;
+}
+
+.news form{
+    width: 600px;
+    height: 50px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.news input{
+    height: 27px;
+    width: 150px;
+    font-family: KanitSemibold,sans-serif;
+    border: 2px #444444 solid;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+a:hover{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+/*css Correspondiente a la seccion Utiles*/
+
+.ofertas{
+    background-color: rgba( 255,255,255, 0.55);
+    font-family: KanitRegular,sans-serif;
+    border-radius: 10px;
+    background: opacity;
+    text-align: center;
+    width: 800px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.utiles{
+    background-color: rgba( 255,255,255, 0.55);
+    font-family: KanitRegular,sans-serif;
+    border-radius: 10px;
+    background: opacity;
+    text-align: center;
+    width: 1300px;
+    height:1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ofertas .image-offers{
+    height: 100px;
+    border-radius: 4px;
+    border: #000 solid 1px;
+    display: block;
+}
+
+.offert{
+    height: 100px;
+    border-radius: 4px;
+    border: #000 solid 1px;
+    display: block;
+}
+
+.quarter-offers{
+  height: 175px;
+  width: 120px;
+  border-radius: 8px;
+  border: #000 solid 1px; 
+  background-color: #FCF1DE;
+  margin: 0px 5px; 
+}
+
+.quarter-utiles{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px;
+}
+
+.quarter-offert{
+    height: 310px;
+    width: 230px;
+    border-radius: 8px;
+    border: #000 solid 1px; 
+    background-color: #FCF1DE;
+    margin: 0px 5px; 
+}
+
+.quarter-offert .image-offert{
+    height: 200px;
+    border-radius: 4px;
+    border: #000 solid 1px;
+    display: block;
+    margin: auto;
+    margin: 7px;
+}
+
+.quarter-offert .price{
+    font-family: KanitSemibold,sans-serif;
+    font-size: 30px;
+    text-align:right;
+    margin-right: 100px;
+}
+
+.quarter-offert .product-name{
+    font-family: KanitRegular,sans-serif;
+    display: block;
+    font-size: 18px;
+}
+
+.quarter-offers span{
+    display: block;
+}
+.quarter-offers .price{
+    font-family: KanitSemibold,sans-serif;
+    text-align: left;
+}
+.flexdiv{
+    background-color: #FCF1DE;
+    display:flex;
+}
+
+.sun{
+    height: 400px;
+    background-color: #FCF1DE;
+    border-radius: 500px;
+    border: 1px solid;
+}
+
+.up-section{
+    display: flex;
+    padding: 50px;
+    width: 1450px;
+}
+.us{
+    width: 900px;
+    height: 730px;
+    margin-left: 80px;
+    border-radius: 30px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+}
+
+.us h2{
+    margin-left: 160px;
+    font-family: KanitSemiBold;
+    font-size: 25px;
+}
+
+.us p{
+    font-family: KaniRegular,sans-serif;
+    width: 500px;
+    font-size: 20px;
+    color: #444444;
+}
+
+p .second-part{
+    width: 100%;
+}
+
+.RickyEly{
+    height: 300px;
+    float:right;
+}
+
+.social{
+    background-color: rgb(255, 255, 255, 0.9);
+    height: 170px;
+    width: 1400px;
+    border-radius: 40px;
+    display: flex;
+    margin: auto;
+}
+
+.social .invite{
+    width: 400px;
+    padding: 25px;
+    font-size: 20px;
+    font-family: KanitSemibold,sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.social .ig{
+    display: block;
+    margin: auto;
+}
+.social .fb{
+    margin: auto;
+    float: right;
+    margin-left: 90px;
+}
+
