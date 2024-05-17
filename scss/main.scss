@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0px 4px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Frederickathegreat;
+    src: url(../Image/fonts/FrederickatheGreat-Regular.ttf);
+    font-family: KanitRegular;
+    src: url(../Image/fonts/Kanit-Regular.ttf);
+    font-family: KanitSemibold;
+    src: url(../Image/fonts/Kanit-SemiBold.ttf);
+}
+body{
+    background-image:url(../Image/logo/Capa\ 1.jpg);
+    background-size:100%;
+    background-position: center;
+}
+
+header{
+    nav{
+        display: flex;
+        padding: 0px 0px 0px 4px;
+        background-color: whitesmoke;
+        width: 101%;
+        text-decoration: none;
+        a{
+            text-decoration: none;
+            text-decoration-line: none;
+            cursor: pointer;
+            img{
+                align-items: baseline;
+                height: 45px;
+            }
+        }
+        .busqueda{
+            margin-left: 200px;
+            display: flex;
+            input{
+                align-items: center;
+                height: 30px;
+                width: 230px;
+                border-radius: 10px;
+                margin: 4px;
+            }
+            .lupa{
+                height: 40px;
+            }
+        }
+        ul{
+            list-style: none;
+            margin-left: 600px;
+            font-family: KanitSemibold,sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            display: inline-flex;
+            text-align: right;
+            height: 48px;
+            padding: 9px 20px;
+        }
+    }
+}
+main{
+    .distribucion{
+        display: flex;
+        display: inline;
+        width: 1100px;
+        .utilities-left{
+            height: 500px;
+            float: left;
+            font-family: KanitSemibold,sans-serif;
+            color: #444444;
+            text-align: center;
+            margin-left: 170px;
+            img{
+                width: 150px;
+                border-radius: 50px;
+                margin-top: 90px;
+            }
+        }
+        .utilities-right{
+            font-family: KanitSemibold,sans-serif;
+            height: 500px;
+            color: #444444;
+            float: right;
+            text-align: center;
+            margin-right: 170px;
+            img{
+                width: 150px;
+                border-radius: 50px;
+                margin-top: 90px;
+            }
+        }
+        .logo-sol-central{
+            width: 400px;
+            display: block;
+            margin: 0 auto;
+            h1{
+                display: block;
+                margin: 0 auto;
+                height: 50px;
+                width: 300px;
+                border: 1px solid;
+                border-radius: 20px;
+                text-align: center;
+                font-family: "Fredericka the Great", serif;
+                font-size: 35px;
+                background-color: rgb(255, 255, 255, 0.45);
+            }
+            .central-sun{
+                margin: 0 auto;
+                display: block;
+                height: 300px;
+            }
+        }
+        .message{
+            display: block;
+            margin: 0 auto;
+            width: 600px;
+            .central-message{
+                width: 400px;
+                height: 130px;
+                font-size: 23px;
+                margin: 0 auto;
+                border: 1px solid;
+                border-radius: 20px;
+                text-align: center;
+                display: block;
+                background-color: rgb(255, 255, 255, 0.45);
+                font-family: KanitRegular,sans-serif;
+                text-decoration: none;
+            }
+            .buttons{
+                display: block;
+                align-items: center;
+                margin: 10px 16%;
+                button{
+                    background-color: #636060;
+                    font-family: KanitSemibold,sans-serif;
+                    color: white;
+                    font-size: 12px;
+                    height: 50px;
+                    width: 120px;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+    .local{
+        background-color: rgb(255, 255, 255, 0.9);
+        font-family: KanitRegular,sans-serif;
+        width: 1000px;
+        height: 300px;
+        padding: 30px 120px;
+        border-radius: 60px;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 300px;
+        h2{
+            margin-left: 60px;
+        }
+        img{
+            float: right;
+            border-radius: 30px;
+            margin-top: 30px;
+        }
+    }
+    .ofertas{
+        
+    }
+}
