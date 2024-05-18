@@ -164,5 +164,252 @@ main .local img {
   border-radius: 30px;
   margin-top: 30px;
 }
+main .ofertas {
+  background-color: rgba(255, 255, 255, 0.55);
+  font-family: KanitRegular, sans-serif;
+  border-radius: 10px;
+  background: opacity;
+  text-align: center;
+  width: 800px;
+  height: 220px;
+  margin: 0 auto;
+}
+main .ofertas .flexdiv {
+  background-color: #FCF1DE;
+  display: flex;
+}
+main .ofertas .flexdiv .quarter-offers {
+  height: 175px;
+  width: 120px;
+  border-radius: 8px;
+  border: #000 solid 1px;
+  background-color: #FCF1DE;
+  margin: 0px 5px;
+}
+main .ofertas .flexdiv .quarter-offers .image-offers {
+  height: 100px;
+  border-radius: 4px;
+  border: #000 solid 1px;
+  display: block;
+}
+main .ofertas .flexdiv .quarter-offers span {
+  display: block;
+}
+main .ofertas .flexdiv .quarter-offers .price {
+  font-family: KanitSemibold, sans-serif;
+  text-align: left;
+}
+main .ofertas .flexdiv .quarter-offers .product-name {
+  font-family: KanitRegular, sans-serif;
+  display: block;
+}
+main .news {
+  background-color: white;
+  font-family: KanitRegular, sans-serif;
+  color: #444444;
+  height: 190px;
+  width: 1487px;
+  margin-top: 50px;
+  padding: 10px 400px;
+  display: block;
+  margin: 0 auto;
+}
+main .news h2 {
+  margin: 12px;
+  text-align: center;
+}
+main .news p {
+  margin: 12px;
+  text-align: center;
+}
+main .news form {
+  width: 600px;
+  height: 50px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+main .news form input {
+  height: 27px;
+  width: 150px;
+  font-family: KanitSemibold, sans-serif;
+  border: 2px #444444 solid;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+a:hover {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+}
+
+body .ofertas {
+  background-color: rgba(255, 255, 255, 0.55);
+  font-family: KanitRegular, sans-serif;
+  border-radius: 10px;
+  background: opacity;
+  text-align: center;
+  width: 800px;
+  height: 220px;
+  margin: 0 auto;
+}
+body .ofertas .flexdiv {
+  background-color: #FCF1DE;
+  display: flex;
+}
+body .ofertas .flexdiv .quarter-offers {
+  height: 175px;
+  width: 120px;
+  border-radius: 8px;
+  border: #000 solid 1px;
+  background-color: #FCF1DE;
+  margin: 0px 5px;
+}
+body .ofertas .flexdiv .quarter-offers .image-offers {
+  height: 100px;
+  border-radius: 4px;
+  border: #000 solid 1px;
+  display: block;
+}
+body .ofertas .flexdiv .quarter-offers span {
+  display: block;
+}
+body .ofertas .flexdiv .quarter-offers .price {
+  font-family: KanitSemibold, sans-serif;
+  text-align: left;
+}
+body .ofertas .flexdiv .quarter-offers .product-name {
+  font-family: KanitRegular, sans-serif;
+  display: block;
+}
+body section .up-section {
+  display: flex;
+  padding: 50px;
+  width: 1450px;
+}
+body section .up-section .sun {
+  height: 400px;
+  background-color: #FCF1DE;
+  border-radius: 500px;
+  border: 1px solid;
+}
+body section .up-section .us {
+  width: 900px;
+  height: 730px;
+  margin-left: 80px;
+  border-radius: 30px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+}
+body section .up-section .us .div-us-flex h2 {
+  margin-left: 160px;
+  font-family: KanitSemiBold;
+  font-size: 25px;
+}
+body section .up-section .us .div-us-flex .RickyEly {
+  height: 300px;
+  float: right;
+}
+body section .up-section .us .div-us-flex p {
+  font-family: KaniRegular, sans-serif;
+  width: 500px;
+  font-size: 20px;
+  color: #444444;
+}
+body section .up-section .us .div-us-flex .second-part {
+  width: 100%;
+}
+body section .social {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 170px;
+  width: 1400px;
+  border-radius: 40px;
+  display: flex;
+  margin: auto;
+}
+body section .social .invite {
+  width: 400px;
+  padding: 25px;
+  font-size: 20px;
+  font-family: KanitSemibold, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+body section .social .ig {
+  display: block;
+  margin: auto;
+}
+body section .social .fb {
+  margin: auto;
+  float: right;
+  margin-left: 90px;
+}
+body section .local {
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: KanitRegular, sans-serif;
+  width: 1000px;
+  height: 300px;
+  padding: 30px 120px;
+  border-radius: 60px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 300px;
+}
+body section .local h2 {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+body section .local img {
+  float: right;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+body .utiles {
+  background-color: rgba(255, 255, 255, 0.55);
+  font-family: KanitRegular, sans-serif;
+  border-radius: 10px;
+  background: opacity;
+  text-align: center;
+  width: 1300px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+body .utiles .quarter-utiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+body .utiles .quarter-utiles .quarter-offert {
+  height: 310px;
+  width: 230px;
+  border-radius: 8px;
+  border: #000 solid 1px;
+  background-color: #FCF1DE;
+  margin: 0px 5px;
+}
+body .utiles .quarter-utiles .quarter-offert .image-offert {
+  height: 200px;
+  border-radius: 4px;
+  border: #000 solid 1px;
+  display: block;
+  margin: auto;
+  margin: 7px;
+}
+body .utiles .quarter-utiles .quarter-offert .price {
+  font-family: KanitSemibold, sans-serif;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 100px;
+}
+body .utiles .quarter-utiles .quarter-offert .product-name {
+  font-family: KanitRegular, sans-serif;
+  display: block;
+  font-size: 18px;
+}
 
 /*# sourceMappingURL=main.css.map */

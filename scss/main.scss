@@ -166,6 +166,254 @@ main{
         }
     }
     .ofertas{
-        
+        background-color: rgba( 255,255,255, 0.55);
+        font-family: KanitRegular,sans-serif;
+        border-radius: 10px;
+        background: opacity;
+        text-align: center;
+        width: 800px;
+        height: 220px;
+        margin: 0 auto;
+        .flexdiv{
+            background-color: #FCF1DE;
+            display:flex;
+            .quarter-offers{
+                height: 175px;
+                width: 120px;
+                border-radius: 8px;
+                border: #000 solid 1px; 
+                background-color: #FCF1DE;
+                margin: 0px 5px; 
+                .image-offers{
+                    height: 100px;
+                    border-radius: 4px;
+                    border: #000 solid 1px;
+                    display: block;
+                }
+                span{
+                    display: block;
+                }
+                .price{
+                    font-family: KanitSemibold,sans-serif;
+                    text-align: left;
+                }
+                .product-name{
+                    font-family: KanitRegular,sans-serif;
+                    display: block;
+                }
+            }
+        }
+    }
+    .news{
+        background-color: white;
+        font-family: KanitRegular,sans-serif;
+        color: #444444;
+        height: 190px;
+        width: 1487px;
+        margin-top: 50px;
+        padding: 10px 400px;
+        display: block;
+        margin: 0 auto;
+        h2{
+            margin: 12px;
+            text-align: center;
+        }
+        p{
+            margin: 12px;
+            text-align: center;
+        }
+        form{
+            width: 600px;
+            height: 50px;
+            padding: 0px 15px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            input{
+                height: 27px;
+                width: 150px;
+                font-family: KanitSemibold,sans-serif;
+                border: 2px #444444 solid;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+a:hover{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+body{
+    .ofertas{
+        background-color: rgba( 255,255,255, 0.55);
+        font-family: KanitRegular,sans-serif;
+        border-radius: 10px;
+        background: opacity;
+        text-align: center;
+        width: 800px;
+        height: 220px;
+        margin: 0 auto;
+        .flexdiv{
+            background-color: #FCF1DE;
+            display:flex;
+            .quarter-offers{
+                height: 175px;
+                width: 120px;
+                border-radius: 8px;
+                border: #000 solid 1px; 
+                background-color: #FCF1DE;
+                margin: 0px 5px; 
+                .image-offers{
+                    height: 100px;
+                    border-radius: 4px;
+                    border: #000 solid 1px;
+                    display: block;
+                }
+                span{
+                    display: block;
+                }
+                .price{
+                    font-family: KanitSemibold,sans-serif;
+                    text-align: left;
+                }
+                .product-name{
+                    font-family: KanitRegular,sans-serif;
+                    display: block;
+                }
+            }
+        }
+    }
+    section{
+        .up-section{
+            display: flex;
+            padding: 50px;
+            width: 1450px;
+            .sun{
+                height: 400px;
+                background-color: #FCF1DE;
+                border-radius: 500px;
+                border: 1px solid;
+            }
+            .us{
+                width: 900px;
+                height: 730px;
+                margin-left: 80px;
+                border-radius: 30px;
+                float: right;
+                background-color: rgba(255, 255, 255, 0.9);
+                padding: 30px;
+                .div-us-flex{
+                    h2{
+                        margin-left: 160px;
+                        font-family: KanitSemiBold;
+                        font-size: 25px;
+                    }
+                    .RickyEly{
+                        height: 300px;
+                        float:right;
+                    }
+                    p{
+                        font-family: KaniRegular,sans-serif;
+                        width: 500px;
+                        font-size: 20px;
+                        color: #444444;
+                    }
+                    .second-part{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .social{
+            background-color: rgb(255, 255, 255, 0.9);
+            height: 170px;
+            width: 1400px;
+            border-radius: 40px;
+            display: flex;
+            margin: auto;
+            .invite{
+                width: 400px;
+                padding: 25px;
+                font-size: 20px;
+                font-family: KanitSemibold,sans-serif;
+                align-items: center;
+                text-align: center;
+            }
+            .ig{
+                display: block;
+                margin: auto;
+            }
+            .fb{
+                margin: auto;
+                float: right;
+                margin-left: 90px;
+            }
+        }
+        .local{
+            background-color: rgb(255, 255, 255, 0.9);
+            font-family: KanitRegular,sans-serif;
+            width: 1000px;
+            height: 300px;
+            padding: 30px 120px;
+            border-radius: 60px;
+            text-align: left;
+            font-size: 20px;
+            margin-left: 300px;
+            h2{
+                margin-left: 60px;
+                margin-top: 30px;
+            }
+            img{
+                float: right;
+                border-radius: 30px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .utiles{
+        background-color: rgba( 255,255,255, 0.55);
+        font-family: KanitRegular,sans-serif;
+        border-radius: 10px;
+        background: opacity;
+        text-align: center;
+        width: 1300px;
+        height:1000px;
+        margin: 0 auto;
+        margin-top: 50px;
+        .quarter-utiles{
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 10px;
+            .quarter-offert{
+                height: 310px;
+                width: 230px;
+                border-radius: 8px;
+                border: #000 solid 1px; 
+                background-color: #FCF1DE;
+                margin: 0px 5px; 
+                .image-offert{
+                    height: 200px;
+                    border-radius: 4px;
+                    border: #000 solid 1px;
+                    display: block;
+                        margin: auto;
+                    margin: 7px;
+                }
+                .price{
+                    font-family: KanitSemibold,sans-serif;
+                    font-size: 30px;
+                    text-align:right;
+                    margin-right: 100px;
+                }
+                .product-name{
+                    font-family: KanitRegular,sans-serif;
+                    display: block;
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }
